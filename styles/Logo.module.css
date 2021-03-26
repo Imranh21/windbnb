@@ -1,0 +1,14 @@
+.logo {
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.logo p {
+    color: #EB5757;
+    font-size: 14px;
+    font-weight: 900;
+    font-family: 'Poppins', sans-serif;
+}

@@ -1,0 +1,56 @@
+.card {
+    margin-bottom: 10px;
+    
+}
+.imgBox {
+    width: 100%;
+    height: 220px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+}
+
+.box1 {
+    width: 100%;
+    
+}
+
+.roomInfo {
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.roomInfo p {
+    font-size: 14px;
+    color: rgb(143, 143, 143);
+    margin: 5px 0;
+}
+.roomInfo .rating {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.rating .svgIcon {
+    width: 30px;
+    height: 30px;
+    display: grid;
+    place-items: center;
+}
+.svgIcon svg {
+    width: 16px;
+    height: 16px;
+    color: #EB5757;
+}
+
+.box2 {
+    margin: 5px 0;
+    color: rgb(36, 36, 36);
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+
+}

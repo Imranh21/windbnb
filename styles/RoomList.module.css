@@ -1,0 +1,48 @@
+.roomContainer {
+    width: 100%;
+}
+
+.listContainer {
+    width: 85%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+}
+.heading {
+    width: 85%;
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px auto;
+}
+.heading h3 {
+    font-size: 24px;
+    font-weight: 700;
+}
+.heading p {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+@media all and (max-width: 780px) {
+    .listContainer {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media all and (max-width: 480px) {
+    .listContainer {
+        width: 95%;
+        grid-template-columns: 1fr;
+    }
+    .heading {
+        width: 95%;
+        margin-top: 40px;
+        font-size: 18px;
+    }
+    .heading h3 {
+        font-size: 18px;
+    }
+}
