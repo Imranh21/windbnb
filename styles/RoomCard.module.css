@@ -54,3 +54,10 @@
     font-size: 16px;
 
 }
+
+@media all and (max-width: 780px){
+    .imgBox {
+        background-repeat: no-repeat;
+    }
+
+}
